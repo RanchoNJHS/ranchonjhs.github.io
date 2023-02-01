@@ -5,17 +5,17 @@ window.onload = () => {
 
   let fuse;
 
-  function load() {
+  function load() { // load posts on the main page
     let nomore = false;
     let toload = 10;
     
-    if (dataindex + toload >= datalen) {
+    if (dataindex + toload >= datalen) { // have I loaded all of the posts
       toload = datalen - dataindex;
       nomore = true;
     }
 
     let rows = data.slice(dataindex, dataindex + toload);
-    for (let index in rows) {
+    for (let index in rows) { // actually add the post
       let row = rows[index];
       
       let title = row.title;
@@ -38,6 +38,7 @@ window.onload = () => {
     }
   }
   
+  // get the data to load
   fetch("https://script.google.com/macros/s/AKfycbzZtYu_kEXFPXRWgWfCp8qPsP4g3ae7BrGO6f0UjsxqHr2tbKxsBs5Aq8VhS0E-5mlz/exec").then(e => e.json()).then(response => {
     data = response;
     datalen = data.length;
@@ -50,7 +51,7 @@ window.onload = () => {
       loadmorebutton.classList.remove("disabled");
     }
 
-    fuse = new Fuse(data, {
+    fuse = new Fuse(data, { // initiate Fuse with the words, so that we can search posts
       threshold: 0.3,
       keys: [
         "title",
@@ -61,7 +62,7 @@ window.onload = () => {
 
   let searchmodal = new bootstrap.Modal(searchresultsmodal);
   
-  function search() {
+  function search() { // do the searching
     let query = searchinput.value;
     searchinput.value = "";
 
@@ -87,14 +88,14 @@ window.onload = () => {
     searchmodal.show();
   }
   
-  searchinput.addEventListener("keypress", e => {
+  searchinput.addEventListener("keypress", e => { // if you press enter in the search bar, initiate search
     if (e.key === "Enter") {
       e.preventDefault();
       search();
     }
   });
 
-  loadmorebutton.addEventListener("click", () => {
+  loadmorebutton.addEventListener("click", () => { // if you click the load more button, give results
     loadmorebutton.setAttribute("aria-pressed", "true");
     loadmorebutton.classList.add("active");
 
@@ -106,12 +107,14 @@ window.onload = () => {
     }
   });
   
+  // add stuff to the navbar
   fetch("https://script.google.com/macros/s/AKfycbwoygN-ilaOfgUP-IxC06fvY4bp9R_JovxMHem--ROxFbvuG1zG4xCEUREmxz1XrpecgA/exec").then(e => e.text()).then(e => {
     navbarhtml.outerHTML = e;
   });
   
   searchoptionslink.addEventListener("click", e => e.preventDefault());
 
+  // allow datepicker stuff
   datepicker(beforesearchoption, {
     showAllDates: true,
     formatter: (input, date) => {
