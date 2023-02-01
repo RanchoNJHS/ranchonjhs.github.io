@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Photos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="author" content="Rancho NJHS">
+    <meta name="description" content="Photos of NJHS service projects.">
+    <base href="https://meap101.github.io/ranchonjhs.github.io/" target="_blank">
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+  
+<style>
+.gallery {
+  display: flex;
+  padding: 2px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+  width: calc(100% / 3);
+}
+.image {
+  display: block;
+  width: 100%;
+  margin: 3px;
+}
+</style>
+</head>
+
+<body>
+    <header class="navbar-light fixed-top header-static bg-mode">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container"><a class="navbar-brand" href=""><img class="light-mode-item navbar-brand-item" src="assets/navbar.png" alt="logo"><img class="dark-mode-item navbar-brand-item" src="assets/navbar.png" alt="logo"></a><button class="navbar-toggler ms-auto icon-md btn btn-light p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-animation"><span></span><span></span><span></span></span></button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div id="navbarhtml"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div style="text-align:center;margin:auto;width:100%;margin-top:-25%">
+                <p class="lead">These are images taken of NJHS members working with dedication on service projects to benefit our community.</p>
+                <div id="images"></div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/bootstrap.js"></script>
+    <script>
+        fetch("https://script.google.com/macros/s/AKfycbwoygN-ilaOfgUP-IxC06fvY4bp9R_JovxMHem--ROxFbvuG1zG4xCEUREmxz1XrpecgA/exec").then(e => e.text()).then(e => {
+            navbarhtml.outerHTML = e;
+        });
+      
+        fetch("https://script.google.com/macros/s/AKfycbxd5o2FtirTAF7Qef_iHGfmGT9q0w0oZ7T12aLbfDJ_11Som1dgmsPt02uMWlX9AdeP/exec").then(e => e.text()).then(e => {
+            images.outerHTML = e;
+        });
+    </script>
+</body>
+
+</html>
