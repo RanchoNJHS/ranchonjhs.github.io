@@ -1,3 +1,3 @@
 # ranchonjhs.github.io
 
-rancho njhs website made by me
+epic gaming njhs website made by me
