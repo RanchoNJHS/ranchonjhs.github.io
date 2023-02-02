@@ -6,6 +6,7 @@
     background-color: #1234;
     top: 0;
     padding-top: 10px;
+    z-index: 1;
 }
 .logo{
     width: 300px;
