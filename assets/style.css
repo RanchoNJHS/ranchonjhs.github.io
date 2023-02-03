@@ -1,4 +1,4 @@
-.navbar{
+.navbar{ /* layout.html */
     width: 100%;
     object-fit: cover;
     overflow: hidden;
@@ -8,10 +8,17 @@
     padding-top: 10px;
     z-index: 1;
 }
-.logo{
+.logo{ /* layout.html */
     width: 400px;
     height: 84px;
 }
-.placeholder-content{
+.placeholder-content{ /* in a html files, to prevent navbar from overlaying content */
     margin-top: 30px;
+}
+.members-grid{ /* members.html */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    place-items: center;
 }
