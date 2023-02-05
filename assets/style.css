@@ -1,9 +1,12 @@
+body{
+    margin: 0;
+}
 .navbar{ /* layout.html */
     width: 100%;
     object-fit: cover;
     overflow: hidden;
     position: fixed;
-    background-color: #1234;
+    background-color: #202565;
     top: 0;
     padding-top: 10px;
     z-index: 1;
@@ -12,8 +15,8 @@
     width: 400px;
     height: 84px;
 }
-.placeholder-content{ /* in a html files, to prevent navbar from overlaying content */
-    margin-top: 30px;
+.placeholder-content{ /* in all html files, to prevent navbar from overlaying content */
+    margin-top: 110px;
 }
 .members-grid{ /* members.html */
     display: grid;
@@ -21,4 +24,8 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     row-gap: 10px;
     place-items: center;
+}
+.index-image{ /* index.html */
+    width: 100%;
+    object-fit: cover;
 }
