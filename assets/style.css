@@ -13,7 +13,8 @@ body{
     z-index: 1;
 }
 .logo{ /* layout.html */
-    width: 200px;
+    width: 400px;
+    height: 84px;
 }
 .container{ /* all files */
     padding: 10px;
@@ -39,7 +40,4 @@ body{
 .index-image{ /* index.html */
     width: 100%;
     object-fit: cover;
-}
-.container{ /* in all html files, to make the content farther away from the edge of the screen */
-    padding: 10px;
 }
