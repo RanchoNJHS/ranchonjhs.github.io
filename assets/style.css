@@ -53,7 +53,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.welcome-text{
+.welcome-text{ /* index.html */
     color: white;
     font-size:2em
 }
