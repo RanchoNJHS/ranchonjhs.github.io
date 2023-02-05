@@ -13,14 +13,14 @@ body{
     z-index: 1;
 }
 .logo{ /* layout.html */
-    width: 400px;
-    height: 84px;
+    width: 300px;
+    height: 63px;
 }
 .container{ /* all files */
     padding: 10px;
 }
 .placeholder-content{ /* in all html files, to prevent navbar from overlaying content */
-    margin-top: 107.6px;
+    margin-top: 86.6px;
 }
 .group-photo{ /* index.html */
     background-image: url('/assets/placeholder-bg.jpg');
