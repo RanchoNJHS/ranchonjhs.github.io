@@ -39,14 +39,14 @@ body{
     margin-top: 86.6px;
 }
 .group-photo{ /* index.html */
-    background-image: url('/assets/placeholder-bg.jpg');
+    background-image: url('/assets/group-bg.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 100%;
     overflow: hidden;
     width: 100%;
     height: 0;
-    padding-top: 55.46%; /* (img-height / img-width * container-width) round to nearest hundredth */
+    padding-top: 75%; /* (img-height / img-width * container-width) round to nearest hundredth */
 
     display: flex;
     align-items: center;
@@ -58,6 +58,10 @@ body{
     background-color: #f2ba45;
     width: 100%;
     height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .members-grid{ /* members.html */
     display: grid;
