@@ -37,7 +37,6 @@ body{
 }
 .placeholder-content{ /* in all html files, to prevent navbar from overlaying content */
     margin-top: 86.6px;
-    margin: -1rem -1rem -1rem -1rem; /* subtract the height of the welcome text */
 }
 .group-photo{ /* index.html */
     background-image: url('/assets/group-bg.jpg');
