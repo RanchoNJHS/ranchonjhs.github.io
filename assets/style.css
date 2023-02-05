@@ -12,8 +12,7 @@ body{
     z-index: 1;
 }
 .logo{ /* layout.html */
-    width: 400px;
-    height: 84px;
+    width: 200px;
 }
 .placeholder-content{ /* in all html files, to prevent navbar from overlaying content */
     margin-top: 110px;
