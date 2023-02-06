@@ -36,7 +36,7 @@ body{
     padding: 10px;
 }
 .placeholder-content{ /* in all html files, to prevent navbar from overlaying content */
-    margin-top: 56.6px;
+    margin-top: 89px;
 }
 .group-photo{ /* index.html */
     background-image: url('/assets/group-bg.jpg');
