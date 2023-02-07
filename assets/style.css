@@ -22,7 +22,7 @@ body{
 }
 .navbar a { /* make links in the navbar look nice */
   color: white;
-  text-decoration: underline 0.5rem rgba(255, 255, 255, 0);
+  text-decoration: underline 0.3rem rgba(255, 255, 255, 0);
   transition: text-decoration-color 200ms;
 }
 .navbar a:hover { /* make links in the navbar look nicer */
@@ -55,16 +55,40 @@ body{
 }
 .welcome-text{ /* index.html */
     color: white;
-    font-size:2em
+    font-size:5em
 }
 .index-section1{
-    background-color: #f2ba45;
+    background-color: white;
     width: 100%;
     height: 600px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.index-img1{
+    width: 500px; /* don't use percentage for this value. keep the image fixed insetad */
+}
+.index-section1-text{
+   width: 40%;
+   padding-left: 10%;
+}
+.index-section2{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.index-img2{
+    width: 500px; /* don't use percentage for this value. keep the image fixed insetad */
+}
+.index-section2-text{
+   width: 40%;
+   padding-left: 10%;
+   color: white;
 }
 .members-grid{ /* members.html */
     display: grid;
