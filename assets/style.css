@@ -37,7 +37,7 @@ main{ /* in all html files, to prevent navbar from overlaying content */
     margin-top: -1rem; /* subtract the height of the welcome text */
 }
 .group-photo{ /* index.html */
-    background-image: url('/assets/group-bg.jpg');
+    background-image: url('/assets/group-bg.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 100%;
@@ -82,10 +82,10 @@ main{ /* in all html files, to prevent navbar from overlaying content */
 }
 .index-img2{
     width: 500px; /* don't use percentage for this value. keep the image fixed insetad */
+    padding-left: 10%;
 }
 .index-section2-text{
    width: 40%;
-   padding-left: 10%;
    color: white;
 }
 .members-grid{ /* members.html */
