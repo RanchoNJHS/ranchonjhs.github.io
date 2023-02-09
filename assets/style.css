@@ -97,6 +97,7 @@ main{ /* in all html files, to prevent navbar from overlaying content */
 }
 .members-grid-item{ /* members.html */
     padding: 10px;
+    width: 50%; /* dont remove this I need this so the bios display correctly */
 }
 .members-grid-img{
     margin-right:30px;
