@@ -90,14 +90,21 @@ main{ /* in all html files, to prevent navbar from overlaying content */
 }
 .members-grid{ /* members.html */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 10px;
     place-items: center;
 }
 .members-grid-item{ /* members.html */
     padding: 10px;
-    width: 25%;
+    width: 50%;
+}
+.members-grid-img{
+    margin-right:30px;
+    float: left;
+
+    object-fit: cover; /* make the images circular */
+    border-radius: 50%;
 }
 
 /* font; don't mess with this */
