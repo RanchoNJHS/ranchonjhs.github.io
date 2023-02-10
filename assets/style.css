@@ -1,5 +1,5 @@
 .navbar{ /* layout.html */
-    width: 100%;
+    width: 101%;
     object-fit: cover;
     overflow: hidden;
     position: fixed;
@@ -9,6 +9,8 @@
     padding-top: 10px;
     z-index: 1;
     height: 71px;
+
+    margin-left: 0;
 }
 .navbar-grid{ /* layout.html */
     display: inline-grid;
@@ -33,10 +35,10 @@
     padding: 10px;
 }
 main{ /* in all lower html files (so like not the front page), to prevent navbar from overlaying content */
-    margin-top: 4em; /* subtract the height of the welcome text */
+    margin-top: 4em;
 }
 main.front{ /* on the front page, to prevent navbar from overlaying content */
-    margin-top: -1rem; /* subtract the height of the welcome text */
+    margin: -1rem -1rem -1rem -1rem; /* subtract the height of the welcome text */
 }
 .group-photo{ /* index.html */
     background-image: url('/assets/group-bg.png');
