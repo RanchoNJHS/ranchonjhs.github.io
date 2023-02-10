@@ -57,19 +57,17 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
 }
 .welcome-text{ /* index.html */
     color: white;
-    font-size:5em
+    font-size: 10vw; /* :) makes the font responsive */
 }
 .index-section1{
     background-color: white;
     width: 100%;
-    height: 600px;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .index-img1{
-    width: 500px; /* don't use percentage for this value. keep the image fixed insetad */
+    width: 50%;
 }
 .index-section1-text{
    width: 40%;
@@ -78,14 +76,12 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
 .index-section2{
     background-color: black;
     width: 100%;
-    height: 600px;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .index-img2{
-    width: 500px; /* don't use percentage for this value. keep the image fixed insetad */
+    width: 50%;
     padding-left: 10%;
 }
 .index-section2-text{
