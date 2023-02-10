@@ -32,8 +32,10 @@
 .container{ /* all files */
     padding: 10px;
 }
-main{ /* in all html files, to prevent navbar from overlaying content */
-    margin-top: 49px;
+main{ /* in all lower html files (so like not the front page), to prevent navbar from overlaying content */
+    margin-top: 4em; /* subtract the height of the welcome text */
+}
+main.front{ /* on the front page, to prevent navbar from overlaying content */
     margin-top: -1rem; /* subtract the height of the welcome text */
 }
 .group-photo{ /* index.html */
