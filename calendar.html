@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calendar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="author" content="Rancho NJHS">
+</head>
+
+<body>
+  <!-- ======================= Header START (loaded from layout.html)-->
+  <header class="navbar-placeholder"> <!-- not named "navbar" so it's unique from the actual navbar-->
+
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+      <div id="nav-placeholder">
+
+      </div>
+
+      <script>
+          $(function() {
+              $("#nav-placeholder").load("layout.html");
+          });
+      </script>
+  </header>
+  <!-- ======================= Header END -->
+    <main>
+        <div class="container">
+            <h1 class="display-2" style="color:#1c1641">Calendar</h1><hr>
+            <div style="text-align:center;width:100%">
+                <p class="lead">This is a calendar of the upcoming service projects for NJHS. View photos of past ones <a href="/photos">here</a>.</p>
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=1&showCalendars=0&showTabs=0&showPrint=0&showNav=1&mode=MONTH&title=NJHS%20Volunteering%20Calendar&src=Y18xNzYxOTc5Y2VjZDk5OWIzN2Y4NDJkNDFjOGQ5YzI1N2M4YjU0YWY3ZGM1MDhlMWJkMTlmM2E5ZTg1Y2VlOWUxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23EF6C00" style="border-width:0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
