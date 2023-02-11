@@ -1,5 +1,5 @@
 .navbar{ /* layout.html */
-    width: 101%;
+    width: 100%;
     object-fit: cover;
     overflow: hidden;
     position: fixed;
@@ -10,7 +10,7 @@
     z-index: 1;
     height: 71px;
 
-    margin-left: 0;
+    margin-left: -0.6vw;
 }
 .navbar-grid{ /* layout.html */
     display: inline-grid;
@@ -38,7 +38,7 @@ main{ /* in all lower html files (so like not the front page), to prevent navbar
     margin-top: 5em;
 }
 main.front{ /* on the front page, to prevent navbar from overlaying content */
-    margin: -1rem -1rem -1rem -1rem; /* subtract the height of the welcome text */
+    margin: -10vw -10vw -10vw -10vw; /* subtract the height of the welcome text */
 }
 .group-photo{ /* index.html */
     background-image: url('/assets/group-bg.png');
@@ -61,13 +61,13 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
 }
 .index-section1{
     background-color: white;
-    width: 100%;
+    height: 600px; /* TODO: change this from a fixed value to percentage for mobile support without making it look garbage */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .index-img1{
-    width: 50%;
+    width: 30%;
 }
 .index-section1-text{
    width: 40%;
@@ -75,13 +75,13 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
 }
 .index-section2{
     background-color: black;
-    width: 100%;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .index-img2{
-    width: 50%;
+    width: 30%;
     padding-left: 10%;
 }
 .index-section2-text{
