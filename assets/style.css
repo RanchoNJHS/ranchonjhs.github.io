@@ -10,7 +10,7 @@
     z-index: 1;
     height: 71px;
 
-    margin-left: -0.6vw;
+    margin-left: -7.8px;
 }
 .navbar-grid{ /* layout.html */
     display: inline-grid;
@@ -38,7 +38,7 @@ main{ /* in all lower html files (so like not the front page), to prevent navbar
     margin-top: 5em;
 }
 main.front{ /* on the front page, to prevent navbar from overlaying content */
-    margin: -10vw -10vw -10vw -10vw; /* subtract the height of the welcome text */
+    margin: -10vw -7.8px -7.8px -7.8px; /* subtract the height of the welcome text */
 }
 .group-photo{ /* index.html */
     background-image: url('/assets/group-bg.png');
@@ -61,7 +61,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
 }
 .index-section1{
     background-color: white;
-    height: 600px; /* TODO: change this from a fixed value to percentage for mobile support without making it look garbage */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
 }
 .index-section2{
     background-color: black;
-    height: 600px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
