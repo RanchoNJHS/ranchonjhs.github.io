@@ -96,7 +96,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 10px;
-    place-items: center;
+    place-items: start center;
     
 }
 .members-grid-item{ /* members.html */
