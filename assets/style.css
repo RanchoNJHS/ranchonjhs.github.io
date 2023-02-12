@@ -36,6 +36,8 @@
 }
 main{ /* in all lower html files (so like not the front page), to prevent navbar from overlaying content */
     margin-top: 5em;
+
+    font-size: 1.5vw;
 }
 main.front{ /* on the front page, to prevent navbar from overlaying content */
     margin: -10vw -7.8px -7.8px -7.8px; /* subtract the height of the welcome text */
@@ -67,7 +69,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     align-items: center;
 }
 .index-img1{
-    width: 30%;
+    width: 40%;
 }
 .index-section1-text{
    width: 40%;
@@ -81,7 +83,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     align-items: center;
 }
 .index-img2{
-    width: 30%;
+    width: 40%;
     padding-left: 10%;
 }
 .index-section2-text{
