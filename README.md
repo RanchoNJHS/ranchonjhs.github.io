@@ -9,7 +9,9 @@ steps to customize website:
   - images are scaled to 250px. make sure these images are square (don't worry about making them circular, that's handled by the code)
 - also in the assets folder, change the images on the front page to your own members.
 - you can adjust the size of these images by adjusting the values for index-img in styles.css
+- in calender.html change the calender widget to your google calender
 
 if the domain stops working, remind mrs. hartmann to go to porkbun.com and renew the subscription
+
 
 ranchonjhs website was coded by dominic huang and timothy chen
