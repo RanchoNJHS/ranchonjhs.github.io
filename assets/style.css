@@ -1,7 +1,6 @@
 .navbar{ /* layout.html */
     width: 100%;
     object-fit: cover;
-    overflow: hidden;
     position: fixed;
     background-color: #202565;
     border-bottom: 8px solid white;
@@ -26,6 +25,14 @@
 }
 .navbar a:hover { /* make links in the navbar look nicer */
   text-decoration-color: rgba(255, 255, 255, 1);
+}
+@media only screen and (max-width: 818px) {
+    .navbar{
+        width: 804px;
+        overflow-x: scroll; /* TODO: make the horizontal scroll actually work (for mobile support) */
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
 }
 .logo{ /* layout.html */
     width: 300px;
