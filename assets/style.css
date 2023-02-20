@@ -27,11 +27,18 @@
   text-decoration-color: rgba(255, 255, 255, 1);
 }
 @media only screen and (max-width: 818px) {
-    .navbar{
-        width: 804px;
-        overflow-x: scroll; /* TODO: make the horizontal scroll actually work (for mobile support) */
-        overflow-y: hidden;
-        white-space: nowrap;
+    .navbar a{
+        font-size: 0.75em;
+    }
+}
+@media only screen and (max-width: 703px) {
+    .navbar a{
+        font-size: 0.5em;
+    }
+}
+@media only screen and (max-width: 602px) {
+    .navbar a{
+        font-size: 0.25em;
     }
 }
 .logo{ /* layout.html */
