@@ -26,17 +26,17 @@
 .navbar a:hover { /* make links in the navbar look nicer */
   text-decoration-color: rgba(255, 255, 255, 1);
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 824px) {
     .navbar a{
         font-size: 0.75em;
     }
 }
-@media only screen and (max-width: 703px) {
+@media only screen and (max-width: 718px) {
     .navbar a{
         font-size: 0.5em;
     }
 }
-@media only screen and (max-width: 602px) {
+@media only screen and (max-width: 612px) {
     .navbar a{
         font-size: 0.25em;
     }
