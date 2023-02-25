@@ -54,10 +54,10 @@ main{ /* in all lower html files (so like not the front page), to prevent navbar
     font-size: 1.5vw;
 }
 main.front{ /* on the front page, to prevent navbar from overlaying content */
-    margin: -10vw -7.8px -7.8px -7.8px; /* subtract the height of the welcome text */
+    margin: -7.8vw -7.8px -7.8px -7.8px; /* subtract the height of the welcome text */
 }
 .group-photo{ /* index.html */
-    background-image: url('/assets/group-bg.png');
+    background-image: url('/assets/group-bg.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 100%;
@@ -65,7 +65,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     width: 100%;
     position: relative;
 
-    padding: 25% 0% 50% 0%; /* (img-height / img-width * container-width) round to nearest hundredth (1404/1872)x100=75. we wanted the text to be slightly above the center, so we split it into 1/3 and 2/3*/
+    padding-top: 75%; /* (img-height / img-width * container-width) round to nearest hundredth (3024/4032)x100=75*/
 
     display: flex;
     align-items: center;
@@ -73,7 +73,17 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
 }
 .welcome-text{ /* index.html */
     color: white;
+    position: absolute;
     font-size: 10vw; /* :) makes the font responsive */
+    left: 5vw;
+    top: 12vw;
+}
+.welcome-subtext{ /* index.html */
+    color: white;
+    position: absolute;
+    font-size: 3vw; /* :) makes the font responsive */
+    left: 10vw;
+    top: 36vw;
 }
 .index-section1{
     background-color: white;
