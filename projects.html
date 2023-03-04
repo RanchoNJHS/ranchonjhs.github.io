@@ -48,10 +48,15 @@
                 <p class="lead">Descriptions of NJHS members working with dedication on service projects to benefit our community.</p><br><br>
             </div>
 
-            <!-- TODO: add cards for each of the service projects. each of the cards should be thumbnail images with the service project's name overlapping on top -->
+            <div id="desc"></div>
         </div>
     </main>
     <script src="/assets/bootstrap.js"></script>
+    <script>
+          fetch("https://script.google.com/macros/s/AKfycbxd5o2FtirTAF7Qef_iHGfmGT9q0w0oZ7T12aLbfDJ_11Som1dgmsPt02uMWlX9AdeP/exec").then(e => e.text()).then(e => {
+              desc.outerHTML = e;
+          });
+    </script>
 </body>
 
 </html>
