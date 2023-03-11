@@ -48,12 +48,13 @@
         Our NJHS Book Drive is ongoing! Make sure to drop off new or gently used books in boxes in the library or the office until March 22nd. All books will be donated to <a href="https://www.choc.org/">CHOC's Children Hospital</a>.
         <br>
         <br>
+        <div id="images"></div>
         </div>
       </div>
     </main>
     <script src="/assets/bootstrap.js"></script>
     <script>
-      fetch("https://script.google.com/macros/s/AKfycbxd5o2FtirTAF7Qef_iHGfmGT9q0w0oZ7T12aLbfDJ_11Som1dgmsPt02uMWlX9AdeP/exec").then(e => e.text()).then(e => {
+      fetch("https://script.google.com/macros/s/AKfycbxd5o2FtirTAF7Qef_iHGfmGT9q0w0oZ7T12aLbfDJ_11Som1dgmsPt02uMWlX9AdeP/exec/bookdrive").then(e => e.text()).then(e => {
           images.outerHTML = e;
       });
   </script>
