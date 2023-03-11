@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Book Drive | Rancho NJHS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="author" content="Rancho NJHS">
+    <meta name="description" content="Book Drive campaign description.">
+
+    <style>
+      .gallery {
+      display: flex;
+      }
+      .column {
+      display: flex;
+      flex-direction: column;
+      width: 33.33%;
+      width: calc(100% / 3);
+      }
+      .image {
+      display: block;
+      width: 100%;
+      }
+  </style>
+  </head>
+  <body>
+    <!-- ======================= Header START (loaded from layout.html)-->
+    <header class="navbar-placeholder"> <!-- not named "navbar" so it's unique from the actual navbar-->
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+        <div id="nav-placeholder">
+
+        </div>
+
+        <script>
+            $(function() {
+                $("#nav-placeholder").load("/layout.html");
+            });
+        </script>
+    </header>
+    <!-- ======================= Header END -->
+    <main>
+      <div class="container" style="position: relative;">
+        <h1 class="display-2" style="color:#1c1641">Book Drive</h1>
+        <hr>
+        <br>
+        Our NJHS Book Drive is ongoing! Make sure to drop off new or gently used books in boxes in the library or the office until March 22nd. All books will be donated to <a href="https://www.choc.org/">CHOC's Children Hospital</a>.
+        <br>
+        <br>
+        </div>
+      </div>
+    </main>
+    <script src="/assets/bootstrap.js"></script>
+    <script>
+      fetch("https://script.google.com/macros/s/AKfycbxd5o2FtirTAF7Qef_iHGfmGT9q0w0oZ7T12aLbfDJ_11Som1dgmsPt02uMWlX9AdeP/exec").then(e => e.text()).then(e => {
+          images.outerHTML = e;
+      });
+  </script>
+  </body>
+</html>
