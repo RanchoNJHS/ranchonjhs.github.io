@@ -13,7 +13,7 @@
 }
 .navbar-grid{ /* layout.html */
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
     padding-left: 30%;
     column-gap: 200px;
@@ -26,17 +26,17 @@
 .navbar a:hover { /* make links in the navbar look nicer */
   text-decoration-color: rgba(255, 255, 255, 1);
 }
-@media only screen and (max-width: 824px) { /* resize the links in the navbar when screen is too small for mobile support */
+@media only screen and (max-width: 1020px) { /* resize the links in the navbar when screen is too small for mobile support */
     .navbar a{
         font-size: 0.75em;
     }
 }
-@media only screen and (max-width: 718px) {
+@media only screen and (max-width: 872px) {
     .navbar a{
         font-size: 0.5em;
     }
 }
-@media only screen and (max-width: 612px) {
+@media only screen and (max-width: 724px) {
     .navbar a{
         font-size: 0.25em;
     }
@@ -134,6 +134,73 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     object-fit: cover; /* make the images circular */
     border-radius: 50%;
 }
+
+/* stolen from bootstrap 3 lol */
+
+  input,
+  button,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
+  .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+  }
+  textarea.form-control {
+    height: auto;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .btn-primary {
+    color: #ffffff;
+    background-color: #367bf6;
+    border-color: #2e6da4;
+  }
 
 /* font; don't mess with this */
 @font-face{font-family:'Arvo';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/arvo/v20/tDbD2oWUg0MKqScQ7Q.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
