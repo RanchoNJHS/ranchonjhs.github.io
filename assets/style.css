@@ -198,8 +198,8 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
   }
   .btn-primary {
     color: #ffffff;
-    background-color: #367bf6;
-    border-color: #2e6da4;
+    background-color: #202565;
+    border-color: solid white;
   }
 
 /* font; don't mess with this */
