@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
   <!-- ======================= Header START (loaded from layout.html)-->
   <header class="navbar-placeholder"> <!-- not named "navbar" so it's unique from the actual navbar-->
 
@@ -32,14 +33,14 @@
                 <p class="lead">Feel free to submit any inquiries to us via the provided form. Responses will be reviewed in a timely fashion by our NJHS members.</p>
                 <br>
                 
-                <form id="contact-form" action="mailto:ranchosjnjhs@gmail.com" method="post" style="text-align:left;"> <!--TODO: make an actual form that doesn't require the user to open an email client lol -->
+                <form id="contact-form" class="gform" data-email="ranchosjnjhs@gmail.com" action="https://script.google.com/macros/s/AKfycbyX86gwtaajwg4-IEcG-1x5nRJTTQ39VLdTAjGLezKZ05gCeJ3ZLb9f-e5Y8CA_yO5A9g/exec" method="post" style="text-align:left;"> <!--TODO: make an actual form that doesn't require the user to open an email client lol -->
                     <div class="form-group" id="name">
                         <label for="name">Name</label>
                         <input class="form-control" autofocus type="text" name="name" placeholder="Your Name">
                     </div>
                     <div class="form-group" id="email">
                         <label for="email">Email Address</label>
-                        <input class="form-control" autofocus type="text" name="email" placeholder="Your Email Address">
+                        <input class="form-control" autofocus type="email" name="email" placeholder="Your Email Address">
                     </div>
                     <div class="form-group">
                         <label for="inquiry">Inquiry</label>
@@ -47,10 +48,17 @@
                     </div>
                     <br>
                     <input value="Submit" type="submit" class="btn btn-primary" />
+
+                    <div style="display:none" class="thankyou_message">
+                        <br>
+                        Thanks for reaching out to us! We will email our reply to you shortly.
+                    </div>
                 </form>
             </div>
         </div>
     </main>
+
+    <script data-cfasync="false" type="text/javascript" src="assets/form-submission-handler.js"></script>
 </body>
 
 </html>
