@@ -1,6 +1,6 @@
 # Official Website of the Rancho San Joaquin Middle School National Junior Honor Society Chapter
 
-the land or extremely wordy titles.
+the land of extremely wordy titles.
 
 Learn more about <a href="https://njhs.us">NJHS</a>.
 
