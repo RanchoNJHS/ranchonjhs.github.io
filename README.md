@@ -1,4 +1,6 @@
-# ranchonjhs.github.io
+# Official Website of the Rancho San Joaquin Middle School National Junior Honor Society Chapter
+
+Learn more about <a href="https://njhs.us">NJHS</a>.
 
 epic gaming njhs website made by me
 
@@ -12,10 +14,10 @@ steps to customize website:
 - in calender.html change the calender widget to your google calender
 
 to add/remove service projects:
-
-- edit the text blurbs in index.html to update the front page. also make sure to appropriately update the images in the assetes folder
-- in the google drive folder named "Photos" (which the ranchonjhs gmail account has access to. ask mrs hartmann for credentials)
-- in the folder named projects, clone one of the existing html files and rename it to the link of your new project. Be sure to appropriately hcange the description and idk do something with google scripts?? tim pls help
+- edit the text blurbs in index.html to update the front page. also make sure to appropriately update the images in the assetes folder (take them down when appropriate, to remove clutter)
+- in the google drive folder named "Photos" (which the ranchonjhs gmail account has access to. ask mrs hartmann for credentials), create a new folder, with a text file named desc.txt, which contains a short blurb in HTML format
+- add images if you want.
+- done---the script automatically refreshes at like 2 in the morning, but if you happen to be impatient, go into the google script and run the function named refresh()
 
 in case you want to edit the website, the ranchonjhs gmail account has access to all the google assests (namely scripts)
 
