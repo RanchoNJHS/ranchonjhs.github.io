@@ -11,6 +11,12 @@ steps to customize website:
 - you can adjust the size of these images by adjusting the values for index-img in styles.css
 - in calender.html change the calender widget to your google calender
 
+to add/remove service projects:
+
+- edit the text blurbs in index.html to update the front page. also make sure to appropriately update the images in the assetes folder
+- in the google drive folder named "Photos" (which the ranchonjhs gmail account has access to. ask mrs hartmann for credentials)
+- in the folder named projects, clone one of the existing html files and rename it to the link of your new project. Be sure to appropriately hcange the description and idk do something with google scripts?? tim pls help
+
 in case you want to edit the website, the ranchonjhs gmail account has access to all the google assests (namely scripts)
 
 if the domain stops working, remind mrs. hartmann to go to porkbun.com and renew the subscription
