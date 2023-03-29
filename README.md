@@ -23,8 +23,6 @@ to add/remove service projects (ask mrs. hartmann for gmail credentials):
 
 remember- in case you want to edit the website, the ranchonjhs gmail account has access to all the google assests (namely scripts)
 
-don't forget to download the repo at the end of the year and upload it to google drive for archival purposes
-
 if the domain stops working, remind mrs. hartmann to go to porkbun.com and renew the subscription
 
 
