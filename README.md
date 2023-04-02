@@ -17,8 +17,9 @@ steps to customize website:
 
 to add/remove service projects (ask mrs. hartmann for gmail credentials):
 - edit the text blurbs in index.html to update the front page. also make sure to appropriately update the images in the assetes folder (take them down when appropriate, to remove clutter)
-- in the google drive folder named "Photos" (which the ranchonjhs gmail account has access to. ask mrs hartmann for credentials), create a new folder, with a text file named desc.txt, which contains a short blurb in HTML format
+- in the google drive folder named "Photos" (which the ranchonjhs gmail account has access to. ask mrs hartmann for credentials), create a new folder (with the naming convention of "<name as it'll appear on the website> - <name of the html file/url>", with a text file named desc.txt, which contains a short blurb in HTML format
 - add images if you want.
+- in the project folder, copy and paste one of the html files for an existing project. change the name of the file to correspond with what you named the google drive folder, change the title attribute of the page, and change the link at the end of the google script execution link to the name of the html file (e.g. /exec?project=bookdrive)
 - done; the script automatically refreshes at like 2 in the morning, but if you happen to be impatient, go into the google script and run the function named refresh()
 
 remember- in case you want to edit the website, the ranchonjhs gmail account has access to all the google assests (namely scripts)
