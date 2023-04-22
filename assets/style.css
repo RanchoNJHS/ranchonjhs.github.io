@@ -89,7 +89,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
   position: absolute;
   right: 0;
   bottom: -2vw;
-  width: 35vw;
+  width: 40vw;
 }
 .index-section1{
     background-color: white;
