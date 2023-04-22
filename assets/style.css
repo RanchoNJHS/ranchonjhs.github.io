@@ -85,6 +85,12 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     left: 10vw;
     top: 40vw;
 }
+.scrollbanner{ /* index.html */
+  position: absolute;
+  right: 0;
+  bottom:-5vh;
+  width: 35vw;
+}
 .index-section1{
     background-color: white;
     height: 60vw;
