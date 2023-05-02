@@ -95,6 +95,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
   height: 20vw;
   right: 0;
   text-align: center;
+  vertical-align: center;
   font-size: 3vw;
 }
 .scrollbanner{ /* index.html */
