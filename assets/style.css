@@ -85,6 +85,16 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     left: 10vw;
     top: 40vw;
 }
+.application-advertisement{ /* index.html */
+  color: #202565;
+  border: 8px solid white;
+  top: 71px;
+  position: absolute;
+  width: 30vw;
+  height: 40vw;
+  font-size: 3vw; /* :) makes the font responsive */
+  right: 0;
+}
 .scrollbanner{ /* index.html */
   position: absolute;
   right: -10vw;
