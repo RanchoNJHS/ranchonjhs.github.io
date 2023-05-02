@@ -89,13 +89,13 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
   background-color: #202565;
   color: white;
   border: 8px solid white;
-  top: 71px;
+  top: 79px;
   position: absolute;
   width: 30vw;
   height: 20vw;
   right: 0;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  line-height: 20vw;
   font-size: 3vw;
 }
 .scrollbanner{ /* index.html */
