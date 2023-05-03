@@ -99,7 +99,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
   font-size: 3vw;
 }
 .application-advertisement-text{ /* index.html */
-  padding-top: 10vw;
+  padding-top: 5vw;
 }
 .scrollbanner{ /* index.html */
   position: absolute;
