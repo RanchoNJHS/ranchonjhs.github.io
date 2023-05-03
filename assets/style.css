@@ -98,6 +98,9 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
   line-height: 4vw;
   font-size: 3vw;
 }
+.application-advertisement-text{ /* index.html */
+  padding-top: 10vw;
+}
 .scrollbanner{ /* index.html */
   position: absolute;
   right: -10vw;
