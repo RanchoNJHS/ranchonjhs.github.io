@@ -85,7 +85,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     left: 10vw;
     top: 40vw;
 }
-.application-advertisement{ /* index.html */
+.application-advertisement{ /* index.html KEEP FOR APPLICATION PERIOD */
   background-color: #202565;
   color: white;
   border: 8px solid white;
@@ -98,7 +98,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
   line-height: 4vw;
   font-size: 3vw;
 }
-.application-advertisement-text{ /* index.html */
+.application-advertisement-text{ /* index.html KEEP FOR APPLICATION PERIOD */
   padding-top: 4vw;
 }
 .scrollbanner{ /* index.html */
