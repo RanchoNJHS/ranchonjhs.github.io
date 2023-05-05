@@ -156,6 +156,11 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     object-fit: cover; /* make the images circular */
     border-radius: 50%;
 }
+label{
+  display: block;
+  margin: auto;
+  width: 60vw
+}
 
 /* stolen from bootstrap 3 lol */
 
@@ -168,8 +173,9 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     line-height: inherit;
   }
   .form-control {
+    margin: auto;
     display: block;
-    width: 100%;
+    width: 50vw;
     height: 34px;
     padding: 6px 12px;
     font-size: 14px;
@@ -198,8 +204,9 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     margin-bottom: 15px;
   }
   .btn {
-    display: inline-block;
+    display: block;
     margin-bottom: 0;
+    margin:auto;
     font-weight: normal;
     text-align: center;
     white-space: nowrap;
