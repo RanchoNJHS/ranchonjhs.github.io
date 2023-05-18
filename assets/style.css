@@ -158,7 +158,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
 }
 .faq-content{ /* contact.html */
     width: 50vw;
-    justify-content: center;
+    margin: auto;
 }
 label{
   display: block;
