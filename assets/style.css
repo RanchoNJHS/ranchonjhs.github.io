@@ -164,6 +164,9 @@ label{
   margin: auto;
   width: 60vw
 }
+b{
+    color: #1c1641;
+}
 
 /* stolen from bootstrap 3 lol */
 
