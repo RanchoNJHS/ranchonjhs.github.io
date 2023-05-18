@@ -156,6 +156,9 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     object-fit: cover; /* make the images circular */
     border-radius: 50%;
 }
+.faq-content{ /* contact.html */
+    width: 50vw;
+}
 label{
   display: block;
   margin: auto;
