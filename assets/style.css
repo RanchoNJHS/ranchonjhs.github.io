@@ -109,13 +109,13 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
 }
 .index-section1{
     background-color: white;
-    height: 60vw;
+    height: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .index-img1{
-    width: 40%;
+    width: 45%;
 }
 .index-section1-text{
    width: 40%;
@@ -123,13 +123,13 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
 }
 .index-section2{
     background-color: black;
-    height: 60vw;
+    height: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .index-img2{
-    width: 40%;
+    width: 45%;
     padding-left: 10%;
 }
 .index-section2-text{
@@ -143,7 +143,6 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 10px;
     place-items: start center;
-    
 }
 .members-grid-item{ /* members.html */
     padding: 10px;
