@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Outreach Week | Rancho NJHS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="author" content="Rancho NJHS">
+    <meta name="description" content="Photos of our NJHS Outreach Week.">
+
+    <style>
+      .gallery {
+      display: flex;
+      }
+      .column {
+      display: flex;
+      flex-direction: column;
+      width: 33.33%;
+      width: calc(100% / 3);
+      }
+      .image {
+      display: block;
+      width: 100%;
+      }
+  </style>
+  </head>
+  <body>
+    <!-- ======================= Header START (loaded from layout.html)-->
+    <header class="navbar-placeholder"> <!-- not named "navbar" so it's unique from the actual navbar-->
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+        <div id="nav-placeholder">
+
+        </div>
+
+        <script>
+            $(function() {
+                $("#nav-placeholder").load("/layout.html");
+            });
+        </script>
+    </header>
+    <!-- ======================= Header END -->
+    <main>
+      <div class="container" style="position: relative;">
+        <div id="info"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:#f1f2f3;display:block" width="200px" height="200px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"><g transform="rotate(0 50 50)"><rect x="47" y="17" rx="2.64" ry="2.64" width="6" height="12" fill="#202565"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.9166666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(30 50 50)"><rect x="47" y="17" rx="2.64" ry="2.64" width="6" height="12" fill="#202565"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.8333333333333334s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(60 50 50)"><rect x="47" y="17" rx="2.64" ry="2.64" width="6" height="12" fill="#202565"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.75s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(90 50 50)"><rect x="47" y="17" rx="2.64" ry="2.64" width="6" height="12" fill="#202565"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.6666666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(120 50 50)"><rect x="47" y="17" rx="2.64" ry="2.64" width="6" height="12" fill="#202565"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.5833333333333334s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(150 50 50)"><rect x="47" y="17" rx="2.64" ry="2.64" width="6" height="12" fill="#202565"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.5s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(180 50 50)"><rect x="47" y="17" rx="2.64" ry="2.64" width="6" height="12" fill="#202565"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.4166666666666667s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(210 50 50)"><rect x="47" y="17" rx="2.64" ry="2.64" width="6" height="12" fill="#202565"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.3333333333333333s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(240 50 50)"><rect x="47" y="17" rx="2.64" ry="2.64" width="6" height="12" fill="#202565"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.25s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(270 50 50)"><rect x="47" y="17" rx="2.64" ry="2.64" width="6" height="12" fill="#202565"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.16666666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(300 50 50)"><rect x="47" y="17" rx="2.64" ry="2.64" width="6" height="12" fill="#202565"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.08333333333333333s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(330 50 50)"><rect x="47" y="17" rx="2.64" ry="2.64" width="6" height="12" fill="#202565"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animate></rect></g></svg></div>
+      </div>
+    </main>
+    <script src="/assets/bootstrap.js"></script>
+    <script>
+      fetch("https://script.google.com/macros/s/AKfycbxd5o2FtirTAF7Qef_iHGfmGT9q0w0oZ7T12aLbfDJ_11Som1dgmsPt02uMWlX9AdeP/exec?project=outreach").then(e => e.text()).then(e => {
+          info.outerHTML = e;
+      });
+  </script>
+  </body>
+</html>
