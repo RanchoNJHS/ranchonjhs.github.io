@@ -95,11 +95,11 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
   height: 20vw;
   right: 0;
   text-align: center;
-  line-height: 1vw;
-  font-size: 1vw;
+  line-height: 3vw;
+  font-size: 2vw;
 }
 .application-advertisement-text{ /* index.html KEEP FOR APPLICATION PERIOD */
-  padding-top: 1vw;
+  padding-top: 2vw;
 }
 .scrollbanner{ /* index.html */
   position: absolute;
