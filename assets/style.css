@@ -115,7 +115,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     align-items: center;
 }
 .index-img1{
-    width: 45%;
+    height: 35%;
 }
 .index-section1-text{
    width: 40%;
@@ -129,7 +129,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     align-items: center;
 }
 .index-img2{
-    width: 45%;
+    height: 35%;
     padding-left: 10%;
 }
 .index-section2-text{
