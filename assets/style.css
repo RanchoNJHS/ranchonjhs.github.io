@@ -57,7 +57,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     margin: -7.8vw -7.8px -7.8px -7.8px; /* subtract the height of the welcome text */
 }
 .group-photo{ /* index.html */
-    background-image: url('/assets/tony-giving-pie.jpeg');
+    background-image: url('/assets/group-photo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 100%;
