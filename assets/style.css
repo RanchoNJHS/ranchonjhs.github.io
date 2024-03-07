@@ -57,7 +57,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     margin: -7.8vw -7.8px -7.8px -7.8px; /* subtract the height of the welcome text */
 }
 .group-photo{ /* index.html */
-    background-image: url('/assets/group-photo.png');
+    background-image: url('/assets/group-photo.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 100%;
@@ -65,7 +65,7 @@ main.front{ /* on the front page, to prevent navbar from overlaying content */
     width: 100%;
     position: relative;
 
-    padding-top: 75%; /* (img-height / img-width * container-width) round to nearest hundredth (3024/4032)x100=75*/
+    padding-top: 64%; /* (img-height / img-width * container-width) round to nearest hundredth (3024/4032)x100=75*/
 
     display: flex;
     align-items: center;
