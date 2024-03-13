@@ -26,24 +26,39 @@
 .navbar a:hover { /* make links in the navbar look nicer */
   text-decoration-color: rgba(255, 255, 255, 1);
 }
+.logo {
+  /* layout.html */
+  width: 300px;
+  height: 63px;
+}
 @media only screen and (max-width: 1020px) { /* resize the links in the navbar when screen is too small for mobile support */
     .navbar a{
         font-size: 0.75em;
+    }
+    .logo { /* layout.html */
+      width: 225px;
+      height: 47.25px;
     }
 }
 @media only screen and (max-width: 872px) {
     .navbar a{
         font-size: 0.5em;
     }
+    .logo {
+      /* layout.html */
+      width: 150px;
+      height: 31.5px;
+    }
 }
 @media only screen and (max-width: 724px) {
     .navbar a{
         font-size: 0.25em;
     }
-}
-.logo{ /* layout.html */
-    width: 300px;
-    height: 63px;
+    .logo {
+      /* layout.html */
+      width: 75px;
+      height: 15.75px;
+    }
 }
 .container{ /* all files */
     padding: 10px;
